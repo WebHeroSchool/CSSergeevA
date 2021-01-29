@@ -5,3 +5,35 @@ h1 {
 	color: red;
 }
 
+body{
+	margin: 0;
+	border:dashed 1px red;
+}
+.menu{
+	display: flex;
+	align-items: center;
+}
+.menu__pro{
+padding:0 13px;
+border: dashed 1px red;
+}
+.menu__pro:last-child{
+padding-right:0;
+}
+
+.wrapper{
+	margin: auto;
+	width:80%;
+	border: dashed 1px red;
+}
+.logo, .menu{ 
+display: inline-block; 
+border: dashed 1px red;
+}
+.logo{
+	padding: 40px 0;
+}
+.header{
+	display:flex;
+	justify-content: space-between;
+}
